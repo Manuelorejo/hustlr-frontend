@@ -13,7 +13,7 @@ export default function BookmarksPage() {
     if (!user) return;
 
     try {
-      const response = await fetch(`http://localhost:8000/bookmarks/${user.id}`);
+      const response = await fetch(`https://hustlr-backend-b83l.onrender.com/bookmarks/${user.id}`);
       const data = await response.json();
       setBookmarks(data);
     } catch (error) {
