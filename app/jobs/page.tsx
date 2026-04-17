@@ -33,7 +33,7 @@ export default function JobsPage() {
     setSearchPerformed(true);
     
     try {
-        const response = await fetch(`http://localhost:8000/search?query=${encodeURIComponent(query)}`, { cache: 'no-store' });
+        const response = await fetch(`https://hustlr-backend-b83l.onrender.com/search?query=${encodeURIComponent(query)}`, { cache: 'no-store' });
         const data = await response.json();
         
         // DEBUG: Look at your browser console (F12) to see exactly what this prints
