@@ -47,8 +47,8 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         {/* Logo / Branding */}
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-black text-white italic tracking-tighter uppercase">Nexus AI</h1>
-          <p className="text-slate-500 font-mono text-[10px] uppercase tracking-[0.3em] mt-2">Authentication Protocol</p>
+          <h1 className="text-4xl font-black text-white italic tracking-tighter uppercase">Hustlr</h1>
+          <p className="text-slate-500 font-mono text-[10px] uppercase tracking-[0.3em] mt-2"></p>
         </div>
 
         <div className="bg-slate-900/50 border border-white/5 rounded-[2.5rem] p-8 backdrop-blur-3xl shadow-2xl">
@@ -111,7 +111,7 @@ export default function LoginPage() {
         </div>
 
         <p className="mt-8 text-center text-sm text-slate-500 font-medium">
-          New to the Nexus? <Link href="/signup" className="text-indigo-400 hover:underline">Create Account</Link>
+          New to Hustlr? <Link href="/signup" className="text-indigo-400 hover:underline">Create Account</Link>
         </p>
       </div>
     </div>
