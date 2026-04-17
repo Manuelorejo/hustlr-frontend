@@ -49,7 +49,7 @@ export default function AnalyzePage() {
     
     setLoading(true);
     try {
-      const response = await fetch('http://127.0.0.1:8000/ai-lab/analyze', {
+      const response = await fetch('https://hustlr-backend-b83l.onrender.com/ai-lab/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
