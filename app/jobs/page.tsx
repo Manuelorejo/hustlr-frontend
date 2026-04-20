@@ -132,7 +132,7 @@ export default function JobsPage() {
     setSavedLinks((prev) => [...prev, jobLink]);
 
     try {
-      const response = await fetch('http://https://hustlr-backend-b83l.onrender.com/jobs/save', {
+      const response = await fetch('https://hustlr-backend-b83l.onrender.com/jobs/save', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
