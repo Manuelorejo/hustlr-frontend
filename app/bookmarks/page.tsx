@@ -25,7 +25,7 @@ export default function BookmarksPage() {
 
   const removeBookmark = async (id: string) => {
     try {
-      await fetch(`http://localhost:8000/bookmarks/${id}`, { method: 'DELETE' });
+      await fetch(`https://hustlr-backend-b83l.onrender.com/bookmarks/${id}`, { method: 'DELETE' });
       setBookmarks(bookmarks.filter((b: any) => b.id !== id));
     } catch (error) {
       alert("Failed to remove bookmark");
