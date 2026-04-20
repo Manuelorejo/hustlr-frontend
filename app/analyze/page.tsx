@@ -80,7 +80,7 @@ export default function AnalyzePage() {
     
     setLoading(true);
     try {
-      const res = await fetch('http://127.0.0.1:8000/analyze-resume', { method: 'POST', body: formData });
+      const res = await fetch('https://127.0.0.1:8000/analyze-resume', { method: 'POST', body: formData });
       if (res.ok) {
         setHasExistingResume(true);
         await runAnalysis();
