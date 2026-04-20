@@ -62,7 +62,7 @@ export default function JobsPage() {
     setTailoringId(jobLink);
   
     try {
-      const response = await fetch('http://https://hustlr-backend-b83l.onrender.com/tailor-live-job', {
+      const response = await fetch('https://hustlr-backend-b83l.onrender.com/tailor-live-job', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
